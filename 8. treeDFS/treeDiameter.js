@@ -59,6 +59,7 @@ root.left.left = new TreeNode(4);
 root.right.left = new TreeNode(5);
 root.right.right = new TreeNode(6);
 console.log(`Tree Diameter: ${treeDiameter.find_diameter(root)}`);
+/*
 root.left.left = null;
 root.right.left.left = new TreeNode(7);
 root.right.left.right = new TreeNode(8);
@@ -66,3 +67,16 @@ root.right.right.left = new TreeNode(9);
 root.right.left.right.left = new TreeNode(10);
 root.right.right.left.left = new TreeNode(11);
 console.log(`Tree Diameter: ${treeDiameter.find_diameter(root)}`);
+*/
+
+/*
+
+    1
+  2  3
+4     5 6
+
+
+function (1)
+function(2)
+function(4)
+*/
